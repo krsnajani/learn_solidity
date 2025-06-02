@@ -9,3 +9,11 @@ contract SimpleStorage {
         return storedData;
     }
 }
+
+// Explaination
+
+/*
+- storedData is a global variable. Meaning that it can be accessed by both functions 
+- In order to return a user-entered amount function 'set' has been created. It will take 'x' and will store it in storedData
+- Then we can use 'get' for getting the value of 'storedData'. This is done through the 'return' function. 
+*/
